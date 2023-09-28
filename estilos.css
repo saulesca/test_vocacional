@@ -1,0 +1,99 @@
+
+.pantalla{
+    color: #000;
+    width: 94%;
+    height: 33%;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.carrera_sugerida{
+	font-size:5em;
+}
+table{
+    width: 80%;
+    /*
+    background-color: pink;
+    */
+    /*
+    background: url('atena.png') no-repeat;
+    */
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px;
+    border: 1px solid blue;
+    box-shadow: 0 0 20px blue;
+    border-radius: 5px;
+    padding-bottom: 8%;
+    background-color: aliceblue;
+}
+.boton{
+    padding: 10px;
+    color: aliceblue;
+    background-color: blueviolet;
+    margin-top: 8%;
+}
+.botonj{
+    width: 50%;
+    padding: 10px;
+    margin: .5%;
+    color: aliceblue;
+    background-color: blueviolet;
+}
+body{
+    background: url('fondo_amarillo.png') no-repeat;
+    background-size: cover;
+    text-align: center;
+    font-weight: bold;
+
+}
+h4{
+    font-size: 1.5em;
+}
+h1{
+    font-size: 2.6em;
+    color: aliceblue;
+    text-shadow: 4px 4px 4px blueviolet;
+}
+.pantalla-inicial{
+    background-color: aliceblue;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 1px solid blue;
+    box-shadow: 0 0 20px blue;
+    border-radius: 5px;
+}
+.pantalla-inicial p{
+    text-align: justify;
+}
+
+.pantalla-final{
+    background: url('fondo_amarillo.png') no-repeat;
+    background-size: cover;
+}
+.carreras_sugeridas{
+    background-color: aliceblue;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: 1px solid blue;
+    box-shadow: 0 0 20px blue;
+    border-radius: 5px;
+}
+.boton0{
+    color: #000;
+    width: 94%;
+    height: 33%;
+    padding: 10px;
+    font-size: .9em;
+    font-weight: bold;
+    margin-bottom: 1%;
+}

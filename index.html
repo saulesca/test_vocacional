@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrientaFilos</title>
+    <link rel="icon" type="image/jpg" href="favmem.png"/>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="miscript2.js"></script>
+    
+</head>
+<body onload="inicio();">
+    <script>
+        inicio();
+    </script>
+    <h1>OrientaFilos</h1>
+
+    <!-- Pantalla inicial -->
+    <div id="pantalla-inicial" class="pantalla-inicial">
+        <h4>¿Cual es tu vocación?</h4>
+        <p>En el siguiente test se te harán 25 preguntas que tienen relación 
+            con algunas carreras de la Facultad de Filosofía y Letras
+            y de acuerdo a tus preferencias saldrá una o mas carreras
+            que podrías estudiar en la Facultad y que podrían gustarte muchísimo.
+        </p>
+        <button class="boton" onclick="comenzarJuego()">COMENZAR A JUGAR</button>
+    </div>
+
+    
+    
+    
+    <!-- Pantalla juego -->
+    <div class="pantalla-juego" id="pantalla-juego">
+        <table >
+            <tr>
+                <td colspan="5">
+                <input type="button" value="¿Te gusta tener tus papeles ordenados? pregunta (1/25)" class="pantalla" disabled="true" id="display" >
+                
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4"><input class="botonj" type="button" value="si" id="a" onclick="display_numeros('a')"></td>
+               
+            </tr>
+            <tr>
+                <td colspan="4"><input class="botonj" type="button" value="no" id="b" onclick="display_numeros('b')"></td>
+                
+            </tr>
+        </table>
+
+    </div>
+
+
+
+    <!-- Pantalla final -->
+    <div id="pantalla-final" class="pantalla-final">
+       
+            <div class="carreras_sugeridas">
+                <p style="font-size: 1.25em;">Carreras que te podrian interesar</p>
+                <input type="button" value="" class="boton0" disabled="true" id="boton0" >
+                
+                <input type="button" value="" class="boton0" disabled="true"  id="boton1" >
+                
+                <input type="button" value="" class="boton0" disabled="true"  id="boton2" >
+                
+                <input type="button" value="" class="boton0" disabled="true"  id="boton3" >
+                
+                <input type="button" value="" class="boton0" disabled="true"  id="boton4" >
+                
+                <input type="button" value="" class="boton0" disabled="true"  id="boton5" >
+                
+                <input type="button" value="" class="boton0" disabled="true"  id="boton6" >
+                
+                <input type="button" value="" class="boton0" disabled="true"  id="boton7" >
+                
+                <input type="button" value="" class="boton0" disabled="true"  id="boton8" >
+                
+                <input type="button" value="" class="boton0" disabled="true"  id="boton9" >
+                
+                <input type="button" value="" class="boton0" disabled="true" id="boton10" >
+                
+                <input type="button" value="" class="boton0" disabled="true" id="boton11" >
+                <br>
+                <button class="boton" onclick="volverAlInicio()">Inicio</button>
+
+            </div>
+            
+    </div>
+
+
+</body>
+</html>
